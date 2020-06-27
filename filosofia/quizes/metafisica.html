@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <title>QUIZ - METAFÍSICA</title> <meta name="description" content=""> <meta name="author" content="">
+
+  <!-- Skeleton
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <div id="skeleton">
+    <link rel="stylesheet" href="../css/skeleton.css">
+  </div>
+
+  <!-- Bootstrap
+
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="bootstrap"></div>
+  <!-- jQuery -->
+  <script id="jquery" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- Bootbox
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../bootbox/bootbox.min.js"></script>
+  <script src="../bootbox/bootbox.locales.min.js"></script>
+
+  <!-- Mis CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="quiz.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.jpeg">
+
+</head>
+<body>
+
+    <div id="bootstrap_css"></div>
+    <div id="header">
+        <h1>FILOSOFÍA</h1>
+    </div>
+    <div class="main">
+    <div class="navbar">
+        <ul>
+	    <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../subtemas/epistemologia.html">Epistemología</a></li>
+            <li><a href="../subtemas/politica.html">Política</a></li>
+            <li><a href="../subtemas/logica.html">Lógica</a></li>
+            <li><a href="../subtemas/etica.html">Ética</a></li>
+            <li><a href="../subtemas/metafisica.html">Metafísica</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Quizes
+                </button>
+                <div class="dropdown-content">
+                    <a href="epistemologia.html">Epistemología</a>
+                    <a href="politica.html">Política</a>
+                    <a href="logica.html">Lógica</a>
+                    <a href="etica.html">Ética</a>
+                    <a href="metafisica.html">Metafísica</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <style>
+     form {
+         text-transform: uppercase;
+     }
+     input {
+         margin-top: 15px;
+     }
+    </style>
+
+
+    <div class="container">
+        <hr>
+        <h2 style="font-size: 60px; text-align: center; margin: 50px; text-decoration: underline; text-decoration: underline;">QUIZES</h2>
+        <hr>
+
+        <h3>METAFÍSICA</h3>
+
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <p>¿Que estudia la metafísica?</p>
+                    El ser <input type="radio" value="respuesta_correcta" name="1" /><br/>
+                    Los componentes fundamentales del universo <input type="radio" value="respuesta_incorrecta" name="1" />
+                </div>
+                <div class="six columns">
+                    <p>La metafísica es de caracter . . .</p>
+                    Especulativo . . . <input type="radio" value="respuesta_correcta" name="2" /><br/>
+                    Empirico . . .<input type="radio" value="respuesta_incorrecta" name="2" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+			<p>¿Cuál de estas <u>no</u> es una una sub-rama de esta filosofía?</p>
+			La teología <input type="radio" value="respuesta_incorrecta" name="3" /> <br/>
+                    La moralidad  <input type="radio" value="respuesta_correcta" name="3" /><br/>
+                    La ontología <input type="radio" value="respuesta_incorrecta" name="3" />
+                </div>
+                <div class="six columns">
+                    <p>¿Cuál de los siguientes filósofos forman partes de los principales estudiosos de la metafísica?</p>
+                    Socrates <input type="radio" value="respuesta_incorrecta" name="4" />
+                    Platón <input type="radio" value="respuesta_incorrecta" name="4" />
+		    Aristoteles <input type="radio" value="respuesta_incorrecta" name="4" /><br/>
+                    Todos los anteriores <input type="radio" value="respuesta_correcta" name="4"/>
+                </div>
+            </div>
+
+	<div id="botonEnviarRespuestas" class="button button-primary" autofocus>Enviar respuestas</div>
+
+        </form>
+
+    </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

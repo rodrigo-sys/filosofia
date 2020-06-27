@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+  <title>QUIZ - POLÍTICA</title> <meta name="description" content=""> <meta name="author" content="">
+
+  <!-- Skeleton
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <div id="skeleton">
+    <link rel="stylesheet" href="../css/skeleton.css">
+  </div>
+
+  <!-- Bootstrap
+
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="bootstrap"></div>
+  <!-- jQuery -->
+  <script id="jquery" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- Bootbox
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="../bootbox/bootbox.min.js"></script>
+  <script src="../bootbox/bootbox.locales.min.js"></script>
+
+  <!-- Mis CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="quiz.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.jpeg">
+
+</head>
+<body>
+
+    <div id="bootstrap_css"></div>
+    <div id="header">
+        <h1>FILOSOFÍA</h1>
+    </div>
+    <div class="main">
+    <div class="navbar">
+        <ul>
+	    <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../subtemas/epistemologia.html">Epistemología</a></li>
+            <li><a href="../subtemas/politica.html">Política</a></li>
+            <li><a href=="../subtemas/logica.html">Lógica</a></li>
+            <li><a href="../subtemas/etica.html">Ética</a></li>
+            <li><a href="../subtemas/metafisica.html">Metafísica</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Quizes
+                </button>
+                <div class="dropdown-content">
+                    <a href="epistemologia.html">Epistemología</a>
+                    <a href="politica.html">Política</a>
+                    <a href="logica.html">Lógica</a>
+                    <a href="etica.html">Ética</a>
+                    <a href="metafisica.html">Metafísica</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <style>
+     form {
+         text-transform: uppercase;
+     }
+     input {
+         margin-top: 15px;
+     }
+    </style>
+
+
+    <div class="container">
+        <hr>
+        <h2 style="font-size: 60px; text-align: center; margin: 50px; text-decoration: underline; text-decoration: underline;">QUIZES</h2>
+        <hr>
+
+        <h3>POLÍTICA</h3>
+
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <p>La filosofía política se centra en . . .</p>
+                    <input type="radio" value="respuesta_incorrecta" name="1" /> . . .  el estudio de la percepción de la belleza, dentro y fuera de las formas de expresión del arte, y sea una percepción visual o no.<br/>
+                    <input type="radio" value="respuesta_correcta" name="1" /> . . . en el estudio de las relaciones entre la sociedad y los individuos
+                </div>
+                <div class="six columns">
+                    <p>¿Es lo mismo que la filosofia política de la ciencia política?</p>
+                    <input type="radio" value="respuesta_incorrecta" name="2" /> Si, las dos buscan saber cómo fueron, son y van a ser los sucesos políticos. 
+                    <br>
+                    <input type="radio" value="respuesta_correcta" name="2" /> No, solo teoriza cómo deberían ser esos sucesos. <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <p>¿Es una rama empirica?</p>
+                    <input type="radio" value="respuesta_correcta" name="3" /> No, basa su estudio en el análisis riguroso de distintas realidades políticas.<br/>
+                    <input type="radio" value="respuesta_incorrecta" name="3" /> Si, se basa en análisis experimentales.<br/>
+                </div>
+                <div class="six columns">
+                    <p>¿Tiene un enfoque riguroso?</p>
+                    <input type="radio" value="respuesta_correcta" name="4"/> Si, esta basado en el pensamiento critico.<br/>
+                    <input type="radio" value="respuesta_incorrecta" name="4" /> No, es mas o menos vago.
+                </div>
+            </div>
+
+            <div id="botonEnviarRespuestas" class="button button-primary" autofocus>Enviar respuestas</div>
+        </form>
+
+    </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

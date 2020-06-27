@@ -1,0 +1,115 @@
+/* ENCABEZADO */ 
+#header {
+	background-color:#5F0202;
+	padding:35px;
+}
+#header h1 {
+	letter-spacing:22px;
+	color:white;
+	text-align: center;
+}
+
+.tema {
+	text-decoration: underline;
+}
+h3 {
+	color:#5F0202;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#5F0202;
+}
+
+.container {
+	border: solid 1px RGBA(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding: 20px;
+	background-color: white;
+}
+
+
+/* BARRA DE NAVEGACIÓN */
+.navbar ul {
+ list-style-type: none;
+ margin-bottom: 70px;
+ margin-top; 0;
+ margin-left; 0;
+ margin-right; 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #461414;
+}
+
+.navbar li {
+ float: left;
+}
+
+.navbar li a {
+ display: block;
+ color: white;
+ text-align: center;
+ text-transform: uppercase;
+ font-family:monospace;
+ font-size: 15px;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+ background-color: #111;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: white;
+ padding: 6px 6px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
